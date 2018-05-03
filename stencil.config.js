@@ -1,10 +1,10 @@
 exports.config = {
-  namespace: 'mycomponent',
+  namespace: 'poc-stencil-component',
   outputTargets:[
-    { 
-      type: 'dist' 
+    {
+      type: 'dist'
     },
-    { 
+    {
       type: 'www',
       serviceWorker: false
     }
